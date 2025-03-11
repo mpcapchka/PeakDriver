@@ -1,6 +1,6 @@
 ﻿namespace PeakDriver.Core
 {
-    public class PeakChanelData
+    public class PeakChannelData
     {
         public ushort HandleId { get; init; }
         public uint DeviceId { get; init; }

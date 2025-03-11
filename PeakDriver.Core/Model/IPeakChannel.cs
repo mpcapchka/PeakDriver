@@ -7,7 +7,8 @@
         #endregion
 
         #region Properties
-        PeakChanelData Data { get; }
+        PeakChannelData Data { get; }
+        bool IsConnected { get; }
         #endregion
 
         #region Methods

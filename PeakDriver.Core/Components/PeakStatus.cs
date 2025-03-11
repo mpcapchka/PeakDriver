@@ -29,6 +29,6 @@
         IllegalMode,
         Caution,
         Initialize,
-        nvalidOperation
+        InvalidOperation,
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakDriver.Core", "PeakDriver.Core\PeakDriver.Core.csproj", "{079CD001-E19A-4A6E-BD3C-506FAF1FD333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakDriver.PcanBasicNet", "PeakDriver.PcanBasicNet\PeakDriver.PcanBasicNet.csproj", "{26EDB596-7FC4-4D23-8908-BE946B0B4F34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{079CD001-E19A-4A6E-BD3C-506FAF1FD333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079CD001-E19A-4A6E-BD3C-506FAF1FD333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079CD001-E19A-4A6E-BD3C-506FAF1FD333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
