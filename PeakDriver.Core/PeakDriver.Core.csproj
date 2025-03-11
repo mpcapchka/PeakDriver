@@ -1,9 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<Authors>K. Britikov</Authors>
+	<Description>The core project for abstract and basic components.</Description>
   </PropertyGroup>
+	
+	<Target Name="CopyNuGetPackage" AfterTargets="Pack">
+		<PropertyGroup>
+			<OutputDirectory>$(SolutionDir)..\Nugets</OutputDirectory>
+		</PropertyGroup>
+		<MakeDir Directories="$(OutputDirectory)" />
+		<Copy SourceFiles="$(OutputPath)$(PackageId).$(Version).nupkg" DestinationFolder="$(OutputDirectory)" />
+	</Target>
 
 </Project>

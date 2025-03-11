@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakDriver.Core", "PeakDriv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakDriver.PcanBasicNet", "PeakDriver.PcanBasicNet\PeakDriver.PcanBasicNet.csproj", "{26EDB596-7FC4-4D23-8908-BE946B0B4F34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakDriver.UdsCore", "PeakDriver.UdsCore\PeakDriver.UdsCore.csproj", "{CE4E63B5-A4A3-4619-9129-3D9999BFE71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26EDB596-7FC4-4D23-8908-BE946B0B4F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4E63B5-A4A3-4619-9129-3D9999BFE71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4E63B5-A4A3-4619-9129-3D9999BFE71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4E63B5-A4A3-4619-9129-3D9999BFE71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4E63B5-A4A3-4619-9129-3D9999BFE71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

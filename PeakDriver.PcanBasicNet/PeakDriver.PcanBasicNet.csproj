@@ -1,9 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+	  <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<Authors>K. Britikov</Authors>
+    <Description>The project based on PCANBasicNET library.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,5 +16,13 @@
   <ItemGroup>
     <ProjectReference Include="..\PeakDriver.Core\PeakDriver.Core.csproj" />
   </ItemGroup>
+
+	<Target Name="CopyNuGetPackage" AfterTargets="Pack">
+		<PropertyGroup>
+			<OutputDirectory>$(SolutionDir)..\Nugets</OutputDirectory>
+		</PropertyGroup>
+		<MakeDir Directories="$(OutputDirectory)" />
+		<Copy SourceFiles="$(OutputPath)$(PackageId).$(Version).nupkg" DestinationFolder="$(OutputDirectory)" />
+	</Target>
 
 </Project>
