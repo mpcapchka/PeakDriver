@@ -1,0 +1,34 @@
+﻿namespace PeakDriver.Core
+{
+    public enum PeakStatus
+    {
+        Ok,
+        TransmitBufferFull,
+        Overrun,
+        BusLight,
+        BusHeavy,
+        BusWarning,
+        BusOff,
+        ReceiveQueueEmpty,
+        ReceiveQueueOverrun,
+        TransmitQueueFull,
+        NoDriver,
+        HardwareInUse,
+        NetInUse,
+        IllegalHardwareHandle,
+        IllegalNetHandle,
+        IllegalClientHandle,
+        IllegalHandle,
+        Resource,
+        InvalidParameter,
+        InvalidValue,
+        Unknown,
+        IllegalData,
+        BusPassive,
+        AnyBusError,
+        IllegalMode,
+        Caution,
+        Initialize,
+        nvalidOperation
+    }
+}
